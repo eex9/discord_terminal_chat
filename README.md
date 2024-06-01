@@ -2,6 +2,7 @@ read:false
 ---
 hi its me astra
 this file should only read once then exit the program. run it again to run the console
+if you get any errors use pip to install discord.py and aioconsole
 the file is at `./README.md` if you need to look at it again
 to run the bot run the `./connect.sh` bash file
 if you change the location of the `./connect.sh` file change the cd to point to wherever the home folder of this directory is
