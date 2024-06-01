@@ -1,4 +1,4 @@
-read:true 
+read:false
 ---
 hi its me astra
 this file should only read once then exit the program. run it again to run the console
