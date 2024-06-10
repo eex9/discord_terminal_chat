@@ -84,5 +84,5 @@ def readme():
 
 
 if __name__ == "__main__":
-    readme()
+    # readme()
     bot_wrapper()
