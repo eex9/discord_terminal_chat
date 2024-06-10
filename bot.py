@@ -61,7 +61,10 @@ def bot_wrapper():
             client.start(TOKEN),
             chat_window.run_console(client)
         )
-    asyncio.run(run_bot())
+    try:
+        asyncio.run(run_bot())
+    except KeyboardInterrupt:
+        print("\nGoodbye!")
 
 def readme():
     with open("./README.md", "r+") as readme:
